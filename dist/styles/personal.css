@@ -1,0 +1,364 @@
+input, button, textarea {
+  outline: medium; }
+
+.disps {
+  display: none; }
+
+.Noborder {
+  border: 0 !important;
+  margin-bottom: 28px !important; }
+  .Noborder p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000; }
+  .Noborder input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 16px;
+    color: #000000; }
+  .Noborder textarea:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size: 16px;
+    color: #000000; }
+
+.login_main {
+  width: 100%;
+  height: 897px;
+  background: url("../../images/bj1.jpg") no-repeat center;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  .login_main .login {
+    width: 890px;
+    height: 518px;
+    border: 10px solid #000000;
+    position: absolute;
+    top: 244px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 100; }
+    .login_main .login .login_nei {
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 100%;
+      height: 100%;
+      padding: 56px 72px 43px 74px;
+      box-sizing: border-box; }
+      .login_main .login .login_nei .Gr_title {
+        width: 100%;
+        height: 51px;
+        border-bottom: 4px solid #000000;
+        padding: 0 30px;
+        box-sizing: border-box; }
+        .login_main .login .login_nei .Gr_title .grlf {
+          width: 122px;
+          height: 40px;
+          font-size: 16px;
+          color: #ffffff;
+          float: left;
+          line-height: 40px;
+          padding-left: 16px;
+          box-sizing: border-box;
+          background: url("../../images/xian.jpg") no-repeat 10px center #000000;
+          font-weight: bold; }
+        .login_main .login .login_nei .Gr_title .grrf {
+          float: right;
+          font-size: 16px;
+          line-height: 16px;
+          color: #000000;
+          font-weight: bold;
+          margin-top: 24px; }
+      .login_main .login .login_nei .gr_main {
+        width: 100%;
+        padding: 27px 29px 0;
+        box-sizing: border-box;
+        overflow: hidden; }
+        .login_main .login .login_nei .gr_main .lo_input {
+          width: 320px;
+          height: 38px;
+          border: 5px solid #000000;
+          margin-bottom: 17px;
+          float: left;
+          position: relative; }
+          .login_main .login .login_nei .gr_main .lo_input p {
+            width: 92px;
+            text-align: center;
+            float: left;
+            font-size: 16px;
+            line-height: 38px;
+            color: #000000;
+            box-sizing: border-box;
+            background: url("../../images/xianTo.png") no-repeat right center; }
+          .login_main .login .login_nei .gr_main .lo_input input {
+            display: block;
+            float: left;
+            width: 228px;
+            height: 38px;
+            line-height: 38px;
+            padding: 0 19px;
+            box-sizing: border-box;
+            background-color: inherit;
+            border: 0;
+            font-size: 14px; }
+          .login_main .login .login_nei .gr_main .lo_input .code {
+            width: 150px; }
+          .login_main .login .login_nei .gr_main .lo_input .btn1 {
+            float: right;
+            width: 79px;
+            height: 38px;
+            display: block;
+            text-align: center;
+            line-height: 38px;
+            color: #ffffff;
+            background-color: #363636;
+            margin-right: -1px;
+            cursor: pointer;
+            font-size: 12px;
+            border: 0; }
+          .login_main .login .login_nei .gr_main .lo_input .p1 {
+            display: block;
+            float: left;
+            width: 150px;
+            height: 38px;
+            line-height: 38px;
+            padding: 0 0 0 21px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #000000;
+            opacity: .6;
+            background: inherit;
+            text-align: left; }
+          .login_main .login .login_nei .gr_main .lo_input .p2 {
+            display: block;
+            float: right;
+            width: 78px;
+            height: 38px;
+            line-height: 38px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #000000;
+            background: inherit;
+            text-align: center;
+            padding: 0;
+            opacity: 1; }
+          .login_main .login .login_nei .gr_main .lo_input .filepath {
+            width: 78px;
+            height: 38px;
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0; }
+        .login_main .login .login_nei .gr_main .w100 {
+          width: 679px; }
+          .login_main .login .login_nei .gr_main .w100 textarea {
+            display: block;
+            float: left;
+            width: 587px;
+            height: 48px;
+            padding: 9px 19px 0;
+            box-sizing: border-box;
+            background-color: inherit;
+            border: 0;
+            font-size: 14px;
+            resize: none; }
+        .login_main .login .login_nei .gr_main .btm {
+          margin-bottom: 16px; }
+        .login_main .login .login_nei .gr_main .main_pa {
+          text-align: center;
+          font-size: 12px;
+          line-height: 12px;
+          clear: both;
+          color: #000000; }
+        .login_main .login .login_nei .gr_main .disno {
+          display: none; }
+        .login_main .login .login_nei .gr_main .btnbox1 {
+          width: 327px;
+          height: 40px;
+          overflow: hidden;
+          margin: 26px auto 0; }
+          .login_main .login .login_nei .gr_main .btnbox1 button {
+            width: 140px;
+            height: 40px;
+            border: 0;
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+            color: #ffffff; }
+          .login_main .login .login_nei .gr_main .btnbox1 .btnle {
+            float: left;
+            background-color: #333333; }
+          .login_main .login .login_nei .gr_main .btnbox1 .btnrf {
+            float: right;
+            background-color: #000000;
+            font-weight: bold; }
+        .login_main .login .login_nei .gr_main .btnbox2 {
+          width: 140px;
+          height: 40px;
+          overflow: hidden;
+          margin: 26px auto 0; }
+          .login_main .login .login_nei .gr_main .btnbox2 button {
+            width: 140px;
+            height: 40px;
+            border: 0;
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+            color: #ffffff; }
+          .login_main .login .login_nei .gr_main .btnbox2 .btnlco {
+            background-color: #000000;
+            font-weight: bold; }
+        .login_main .login .login_nei .gr_main .lo_input:nth-child(2n) {
+          float: right; }
+    .login_main .login .forget {
+      background-color: rgba(255, 255, 255, 0.94);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none; }
+      .login_main .login .forget .for_main {
+        width: 355px;
+        height: 130px;
+        background-color: #000000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 26px 57px 0;
+        box-sizing: border-box;
+        display: none; }
+        .login_main .login .forget .for_main p {
+          font-size: 12px;
+          line-height: 12px;
+          color: #ffffff;
+          text-align: center;
+          padding-bottom: 9px; }
+        .login_main .login .forget .for_main .kuais {
+          width: 12px;
+          height: 2px;
+          display: block;
+          margin: 0 auto;
+          background-color: #ff0000; }
+        .login_main .login .forget .for_main button {
+          width: 71px;
+          height: 17px;
+          line-height: 17px;
+          text-align: center;
+          border: 0;
+          font-size: 12px;
+          margin-top: 9px; }
+        .login_main .login .forget .for_main .btn6 {
+          background-color: #333333;
+          color: #ffffff;
+          opacity: .6;
+          float: left; }
+        .login_main .login .forget .for_main .btn7 {
+          background-color: #fefefe;
+          color: #000000;
+          float: right; }
+      .login_main .login .forget .for_zhao {
+        width: 355px;
+        height: 130px;
+        background-color: #000000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 26px 57px 0;
+        box-sizing: border-box;
+        display: none; }
+        .login_main .login .forget .for_zhao p {
+          font-size: 12px;
+          line-height: 12px;
+          color: #ffffff;
+          text-align: center;
+          padding-bottom: 9px; }
+        .login_main .login .forget .for_zhao .kuais {
+          width: 12px;
+          height: 2px;
+          display: block;
+          margin: 0 auto 9px;
+          background-color: #ff0000; }
+        .login_main .login .forget .for_zhao em {
+          width: 8px;
+          height: 8px;
+          display: block;
+          background: url("../../images/cuo.png") no-repeat center;
+          position: absolute;
+          top: 8px;
+          right: 9px;
+          cursor: pointer; }
+      .login_main .login .forget .disp {
+        display: none; }
+  .login_main .write .Block {
+    display: block !important; }
+    .login_main .write .Block .for_main {
+      display: block !important; }
+  .login_main .write .forget {
+    background-color: rgba(255, 255, 255, 0.94);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .login_main .write .forget .for_main {
+      width: 355px;
+      height: 130px;
+      background-color: #000000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 26px 57px 0;
+      box-sizing: border-box; }
+      .login_main .write .forget .for_main p {
+        font-size: 12px;
+        line-height: 12px;
+        color: #ffffff;
+        text-align: center;
+        padding-bottom: 9px; }
+      .login_main .write .forget .for_main .kuais {
+        width: 12px;
+        height: 2px;
+        display: block;
+        margin: 0 auto;
+        background-color: #ff0000; }
+      .login_main .write .forget .for_main button {
+        width: 71px;
+        height: 17px;
+        line-height: 17px;
+        text-align: center;
+        border: 0;
+        font-size: 12px;
+        margin-top: 9px; }
+      .login_main .write .forget .for_main .btn6 {
+        background-color: #333333;
+        color: #ffffff;
+        opacity: .6;
+        float: left; }
+      .login_main .write .forget .for_main .btn7 {
+        background-color: #fefefe;
+        color: #000000;
+        float: right; }

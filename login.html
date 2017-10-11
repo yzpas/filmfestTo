@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="dist/styles/normalize.css"/>
+    <link rel="stylesheet" href="dist/styles/hidden.min.css"/>
+    <link rel="stylesheet" href="dist/styles/login.min.css"/>
+</head>
+<body>
+    <!--头部-->
+    <div class="title">
+        <div class="title_main">
+            <img src="images/LOGO.png" width="89" height="83" alt="" class="logo"/>
+            <div class="nav">
+                <ul class="ti_ul">
+                    <li class="li_a"><a href="#" class="li_aTo">开幕</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">开幕酒会</a></li>
+                            <li><a href="#">开幕影片</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">吴天明高峰会</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">创投路演</a></li>
+                            <li><a href="#">创投洽谈</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="li_a"><a href="#" class="li_aTo">论坛</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">主论坛·制片公司选片战略</a></li>
+                            <li><a href="#">分论坛·中英电影产业论坛</a></li>
+                            <li><a href="#">分论坛·主流电影观众审美</a></li>
+                            <li><a href="#">分论坛·世界电影浙江制造</a></li>
+                            <!--<li><a href="#">圆桌:青年电影基金发展战略</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">展映</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">经典单元</a></li>
+                            <li><a href="#">激情单元</a></li>
+                            <li><a href="#">短片单元</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">训练营</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">东海大师训练营</a></li>
+                            <!--<li><a href="#">吴天明基金大师训练营</a></li>-->
+                            <li><a href="#">电影音乐训练营</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">未来榜</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">科幻电影论坛</a></li>
+                            <li><a href="#">中国科幻电影排行榜</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">信息中心</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">新闻动态</a></li>
+                            <li><a href="#">图片中心</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">关于影节</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">影节概况</a></li>
+                            <li><a href="#">常设机构</a></li>
+                            <li><a href="#">影节指南</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="ti_login">
+                <a href="#">登录</a>
+                <p>|</p>
+                <a href="#">注册</a>
+            </div>
+        </div>
+        <div class="nav_back"></div>
+    </div>
+    <div class="login_main">
+        <img src="images/login.jpg" alt="" class="mian_img">
+        <div class="login">
+            <!--登陆-->
+            <div class="login_nei">
+                <ul class="lo_ul">
+                    <li class="on">登录</li>
+                    <li>嘉宾注册</li>
+                    <li>项目方注册</li>
+                    <li>志愿者申请</li>
+                </ul>
+                <div class="lo_dv">
+                    <div class="lo_input">
+                        <p>用户名</p>
+                        <input type="text" placeholder="请输入邮箱账号">
+                    </div>
+                    <div class="lo_input">
+                        <p>密 &nbsp;&nbsp; 码</p>
+                        <input type="password" placeholder="请输入密码">
+                    </div>
+                    <div class="lo_input">
+                        <p>验证码</p>
+                        <input type="text" placeholder="请点击获取验证码" class="code">
+                        <!--<span ></span>-->
+                        <img src="" alt="" class="btn1" >
+                    </div>
+                    <div class="remember">
+                        <p class="Pcl"><em class="lei"></em> <span>记住我的登录状态</span></p>
+                        <a href="javascript:void(0);" class="rema">忘记密码</a>
+                    </div>
+                    <button class="btn2">登 录</button>
+                    <!--报错-->
+                    <p class="wrong">账号或密码不正确，如密码遗失请选择忘记密码</p>
+                </div>
+            </div>
+            <!--三步-->
+            <div class="forget">
+                <!--忘记密码-->
+                <div class="for_main">
+                    <p>已向您的邮箱13****38@qq.com发送一份邮件，请根据邮件指示重置密码</p>
+                    <button class="btn3">确定</button>
+                    <a href="javascript:void(0);">没收到？重发一份</a>
+                </div>
+                <!--找回密码-->
+                <div class="for_zhao">
+                    <div class="for_input">
+                        <p>用户名</p>
+                        <input type="text" placeholder="请输入邮箱账号">
+                    </div>
+                    <div class="for_input">
+                        <p>验证码</p>
+                        <input type="text" placeholder="请输入验证码" class="Yzinput">
+                        <button class="btn5">发送验证码</button>
+                    </div>
+                    <button class="btn3">确定</button>
+
+                </div>
+
+                <!--新密码-->
+                <div class="for_xin">
+                    <div class="for_input">
+                        <p>新密码</p>
+                        <input type="text" placeholder="请设置新密码，6-20位">
+                    </div>
+                    <button class="btn4">确定</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--底部-->
+    <div class="foodTo">
+        <p>Copyright © 2017 Nextfilm Inc. 保留所有权利。</p>
+    </div>
+    <script src="dist/scripts/jquery-1.5.2.min.js"></script>
+    <script src="dist/scripts/config.js"></script>
+    <script src="dist/scripts/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,552 @@
+input,button,textarea,select{
+  outline: medium;
+}
+.pos{
+  position: relative;
+  ul.posul{
+    width:320px;
+    background-color: #ffffff;
+    border: 4px solid #000000;
+    position: absolute;
+    padding: 8px 0;
+    li{
+      width:100%;
+      margin-left: 90px;
+      border-left: 2px solid #000000;
+    }
+  }
+}
+.login_main{
+  width: 100%;
+  height:1303px;
+  background: url("../../images/login1.jpg") no-repeat center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+  .login{
+    width:889px;
+    height:962px;
+    border: 10px solid #000000;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 100;
+    .login_nei{
+      background-color:rgba(255,255,255,.8) ;
+      width: 100%;
+      height:100%;
+      .lo_ul{
+        width: 363px;
+        height: 534px;
+        float: left;
+
+        margin-top: 36px;
+        padding-left: 92px;
+        box-sizing: border-box;
+        li{
+          height:40px;
+          line-height: 40px;
+          font-size: 16px;
+          color: #ffffff;
+          padding-left: 17px;
+          box-sizing: border-box;
+          background: url("../../images/xian.jpg")no-repeat 10px center #000000;
+          cursor: pointer;
+          margin-bottom: 31px;
+        }
+        li.on{
+          font-weight: bold;
+        }
+        li:nth-child(1){
+          width:81px;
+        }
+        li:nth-child(2){
+          width:122px;
+        }
+        li:nth-child(3){
+          width:162px;
+        }
+        li:nth-child(4){
+          width:198px;
+        }
+      }
+      .lo_dv{
+        width:526px;
+        float: left;
+        margin-top: 36px;
+        padding-left: 99px;
+        box-sizing: border-box;
+        border-left: 4px solid #1a1a1a;
+        overflow: hidden;
+        .icon{
+          background: url("../../images/xing.png")no-repeat 4px center ;
+          background-size: 7px 7px;
+        }
+
+        #laydate{
+          position: absolute;
+          left:-5px;
+          width: 100%;
+          padding: 0 19px 0 111px;
+        }
+        .lo_input{
+          width:320px;
+          height:38px;
+          border: 5px solid #000000;
+          margin-bottom: 18px;
+          position: relative;
+          //添加特长
+          .lo_span1{
+            display: block;
+            float: left;
+            width:228px;
+            height:38px;
+            line-height: 38px;
+            padding: 0 19px 0 34px;
+            box-sizing: border-box;
+            background-color: inherit;
+            border:0;
+            font-size: 14px;
+            background: url("../../images/jia.png") no-repeat 19px center;
+            cursor: pointer;
+          }
+
+          .Rl{
+            background: url("../../images/rl.png") no-repeat 291px center ;
+           // cursor: pointer;
+          }
+          .Rla{
+            background: url("../../images/select.png") no-repeat 210px center ;
+            cursor: pointer;
+          }
+
+          ul.ul1,ul.ul2{
+            width:228px;
+            float: left;
+            height:38px;
+            li.onq span{
+              background-color: #000000;
+            }
+            li{
+              overflow: hidden;
+              cursor: pointer;
+              float: left;
+              span{
+                width:8px;
+                height:8px;
+                display: block;
+                float: left;
+                border:2px solid #000000;
+                margin-top: 13px;
+                margin-right: 8px;
+              }
+
+              p{
+                font-size: 16px;
+                color: #000000;
+                background: inherit;
+                opacity: 1;
+                width: auto;
+                float: left;
+                margin-top: 7px;
+              }
+            }
+            li:nth-child(1){
+              margin:0 74px 0 41px;
+            }
+          }
+
+          p.p5{
+            width:92px;
+            float: left;
+            font-size: 16px;
+            line-height: 38px;
+            color: #000000;
+            text-align: center;
+            box-sizing: border-box;
+            background: url("../../images/xianTo.png") no-repeat right center;
+            opacity: .6;
+          }
+          .p1{
+            display: block;
+            float: left;
+            width:150px;
+            height:38px;
+            line-height: 38px;
+            padding: 0 0 0 19px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #000000;
+            opacity: .4;
+            background:inherit;
+          }
+          .p2{
+            display: block;
+            float: right;
+            width:78px;
+            height:38px;
+            line-height: 38px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #000000;
+            background:inherit;
+            text-align: center;
+            padding: 0;
+            opacity: 1;
+          }
+          .filepath{
+            width:78px;
+            height:38px;
+            opacity: 0;
+            position: absolute;
+            right:0;
+            top:0;
+          }
+          input{
+            display: block;
+            float: left;
+            width:228px;
+            height:38px;
+            line-height: 38px;
+            padding: 0 19px;
+            box-sizing: border-box;
+            background-color: inherit;
+            border:0;
+            font-size: 14px;
+          }
+          textarea{
+            display: block;
+            float: left;
+            width:228px;
+            height:80px;
+            padding: 9px 19px 0;
+            box-sizing: border-box;
+            background-color: inherit;
+            border:0;
+            font-size: 14px;
+            resize:none;
+          }
+          .code{
+            width:150px;
+          }
+          .btn1{
+            float: right;
+            width:79px;
+            height:38px;
+            display: block;
+            text-align: center;
+            line-height: 38px;
+            color: #ffffff;
+            background-color: #363636;
+            margin-right: -1px;
+            cursor: pointer;
+            font-size: 12px;
+            border: 0;
+          }
+
+
+        //  申请志愿者原因
+          .p7{
+            width:92px;
+            float: left;
+            font-size: 16px;
+            //line-height: 38px;
+            color: #000;
+            text-align: center;
+            box-sizing: border-box;
+            background: url(../../images/xianTo.png) right center no-repeat;
+            opacity: .6;
+            margin-top: 4px;
+          }
+          .p9{
+            font-size: 12px;
+            color: #000000;
+            float: right;
+            background:url("../../images/icon4.jpg") no-repeat left center;
+            line-height: 12px;
+            background-size: 10px 10px;
+            padding-left: 14px;
+            margin-top: 8px;
+            margin-right: -5px;
+            display: none;
+          }
+          .topas{
+            margin-top: 46px;
+          }
+        }
+
+        .Hei{
+          height:80px;
+        }
+        //添加特长
+        .bom{
+          margin-bottom: 0px;
+        }
+        .boma{
+          margin-top: 5px;
+        }
+
+        .Tc{
+          //overflow: hidden;
+        }
+        .tops{
+          margin-top: 19px;
+        }
+        .lo_inputa{
+          width:330px;
+          height:41px;
+          //margin-bottom: 18px;
+          position: relative;
+          .sel{
+            position: relative;
+            width:110px;
+            height:41px;
+            line-height: 41px;
+            padding: 0 12px 0 19px;
+            box-sizing: border-box;
+            background: url("../../images/select.png")no-repeat 88px center;
+            border:3px solid #000000;
+            float: left;
+            cursor: pointer;
+            .p6{
+              font-size: 16px;
+              color: #000000;
+              line-height: 36px;
+            }
+            .sel_ul{
+              width: 104px;
+              border: 3px solid #282828;
+              position: absolute;
+              left: -3px;
+              top: 36px;
+              background-color: #ffffff;
+              padding: 9px 0 1px;
+              z-index: 100;
+              display: none;
+              li{
+                width:100%;
+                font-size: 16px;
+                color: #000000;
+                line-height: 16px;
+                //text-align: center;
+                padding-left: 18px;
+                box-sizing: border-box;
+                margin-bottom: 8px;
+              }
+            }
+          }
+
+          .addInput{
+            width:213px;
+            height:41px;
+            float: right;
+            border: 3px solid #000000;
+            padding: 0 13px;
+            box-sizing: border-box;
+            background: inherit;
+            font-size: 14px;
+          }
+
+          .sel_span{
+            font-size: 16px;
+            color: #000000;
+            position: absolute;
+            right: -43px;
+            top: 10px;
+            cursor: pointer;
+          }
+        }
+        .pos{
+          position: relative;
+          ul.posul{
+            display: none;
+            width:322px !important;
+            background-color: #ffffff;
+            border: 4px solid #000000;
+            position: absolute;
+            padding: 8px 0;
+            left: -5px;
+            top: 39px;
+            z-index: 10;
+            li{
+              width:100%;
+              margin-left: 91px;
+              border-left: 2px solid #000000;
+              padding-bottom: 4px;
+              p{
+                padding-left: 19px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        .p3{
+          font-size: 12px;
+          color: #000000;
+          margin-bottom: 8px;
+        }
+        .btn4{
+          width:140px;
+          height:40px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 16px;
+          border: 0;
+          float: left;
+          //margin-left:48px;
+          font-weight: bold;
+          background-color: #000000;
+          color: #ffffff;
+          margin-left: 96px;
+        }
+        .span1{
+          width: 49px;
+          font-size: 12px;
+          color: #000000;
+          display: block;
+          clear: both;
+          padding: 4px 13px 0 0;
+          background: url("../../images/jiant.png")no-repeat right 9px;
+          margin-left: 266px;
+          cursor: pointer;
+        }
+
+        //.lo_input:nth-child(1){
+        //  p{
+        //    padding: 0 19px;
+        //  }
+        //}
+        //.lo_input:nth-child(3){
+        //  p{
+        //    padding: 0 9px 0 14px;
+        //  }
+        //}
+        //.lo_input:nth-child(4){
+        //  p{
+        //    padding: 0 9px 0 14px;
+        //  }
+        //}
+        //.lo_input:nth-child(6){
+        //  height:58px;
+        //
+        //  p{
+        //    padding: 0 9px 0 14px;
+        //  }
+        //}
+        //.lo_input:nth-child(7){
+        //  margin-bottom: 8px;
+        //}
+        .remember{
+          width:330px;
+          overflow: hidden;
+          p{
+            float: left;
+            cursor: pointer;
+            em{
+              width:8px;
+              height:8px;
+              border: 2px solid #000000;
+              display: block;
+              float: left;
+            }
+            em.lei{
+              background-color: #000000;
+            }
+            span{
+              display: block;
+              float: left;
+              font-size: 12px;
+              color: #000000;
+              line-height: 12px;
+              margin-left: 6px;
+            }
+          }
+          a{
+            float: right;
+            font-size: 12px;
+            line-height: 12px;
+            color: #000000;
+          }
+        }
+        .btn2{
+          width:330px;
+          height:40px;
+          display: block;
+          background-color: #000000;
+          text-align: center;
+          line-height: 40px;
+          font-size: 18px;
+          color: #ffffff;
+          font-weight: bold;
+          border:0;
+          margin-top: 15px;
+        }
+        .wrong{
+          font-size: 12px;
+          width:330px;
+          text-align: center;
+          margin-top: 4px;
+          background: url("../../images/icon4.jpg")no-repeat 24px center;
+        }
+      }
+    }
+    .forget{
+      background-color:rgba(255,255,255,.94) ;
+      width: 100%;
+      height:100%;
+      position: absolute;
+      top: 0;
+      display: none;
+      .for_zhao{
+        width:355px;
+        height:130px;
+        background-color: #000000;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        padding: 26px 57px 0;
+        box-sizing: border-box;
+        display: none;
+        p{
+          font-size: 12px ;
+          line-height: 12px;
+          color: #ffffff;
+          text-align: center;
+          padding-bottom: 9px;
+        }
+        .kuais{
+          width:12px;
+          height:2px;
+          display: block;
+          margin:0 auto 9px;
+          background-color: #ff0000;
+        }
+        em{
+          width:8px;
+          height:8px;
+          display: block;
+          background: url("../../images/cuo.png")no-repeat center;
+          position: absolute;
+          top:8px;
+          right:9px;
+          cursor: pointer;
+        }
+      }
+
+
+    }
+  }
+}
+
+.layui-laydate{
+  width:331px;
+}
+.laydate-theme-molv .layui-laydate-main {
+  width: 331px !important;
+}
+.layui-laydate-content table{
+  width:308px;
+}
+.foodTo{}

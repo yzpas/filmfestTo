@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>志愿者申请</title>
+    <link rel="stylesheet" href="dist/styles/normalize.css"/>
+    <link rel="stylesheet" href="dist/styles/hidden.min.css"/>
+    <link rel="stylesheet" href="dist/styles/postulant.min.css"/>
+</head>
+<body>
+    <!--头部-->
+    <div class="title">
+        <div class="title_main">
+            <img src="images/LOGO.png" width="89" height="83" alt="" class="logo"/>
+            <div class="nav">
+                <ul class="ti_ul">
+                    <li class="li_a"><a href="#" class="li_aTo">开幕</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">开幕酒会</a></li>
+                            <li><a href="#">开幕影片</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">吴天明高峰会</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">创投路演</a></li>
+                            <li><a href="#">创投洽谈</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="li_a"><a href="#" class="li_aTo">论坛</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">主论坛·制片公司选片战略</a></li>
+                            <li><a href="#">分论坛·中英电影产业论坛</a></li>
+                            <li><a href="#">分论坛·主流电影观众审美</a></li>
+                            <li><a href="#">分论坛·世界电影浙江制造</a></li>
+                            <!--<li><a href="#">圆桌:青年电影基金发展战略</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">展映</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">经典单元</a></li>
+                            <li><a href="#">激情单元</a></li>
+                            <li><a href="#">短片单元</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">训练营</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">东海大师训练营</a></li>
+                            <!--<li><a href="#">吴天明基金大师训练营</a></li>-->
+                            <li><a href="#">电影音乐训练营</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">未来榜</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">科幻电影论坛</a></li>
+                            <li><a href="#">中国科幻电影排行榜</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">信息中心</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">新闻动态</a></li>
+                            <li><a href="#">图片中心</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_a"><a href="#" class="li_aTo">关于影节</a>
+                        <ul class="ti_ulTo">
+                            <li><a href="#">影节概况</a></li>
+                            <li><a href="#">常设机构</a></li>
+                            <li><a href="#">影节指南</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="ti_login">
+                <a href="#">登录</a>
+                <p>|</p>
+                <a href="#">注册</a>
+            </div>
+        </div>
+        <div class="nav_back"></div>
+    </div>
+    <div class="login_main">
+
+        <div class="login">
+            <!--登陆-->
+            <div class="login_nei">
+                <ul class="lo_ul">
+                    <li>登录</li>
+                    <li>嘉宾注册</li>
+                    <li>项目方注册</li>
+                    <li class="on">志愿者申请</li>
+                </ul>
+                <div class="lo_dv">
+                    <div class="lo_input icon">
+                        <p class="p5">姓 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 名</p>
+                        <input type="text" placeholder="请输入姓名">
+                        <p class="p9">请填写姓名</p>
+                    </div>
+                    <div class="lo_input icon">
+                        <p class="p5">手机号码</p>
+                        <input type="text" placeholder="请输入手机号">
+                        <p class="p9">请填写手机号</p>
+                    </div>
+                    <div class="lo_input icon">
+                        <p class="p5">性 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 别</p>
+                        <ul class="ul1">
+                            <li class="onq">
+                                <span ></span>
+                                <p>男</p>
+                            </li>
+                            <li>
+                                <span></span>
+                                <p>女</p>
+                            </li>
+                        </ul>
+                        <p class="p9">请选择性别</p>
+                    </div>
+
+                    <div class="lo_input icon pos">
+                        <p class="p5">出生日期</p>
+                        <input type="text" placeholder="请选择出生日期" readonly="readonly"  class="Rl" id="laydate">
+                        <p class="p9 topas" >请选择出生日期</p>
+                    </div>
+
+                    <div class="lo_input icon ">
+                        <p class="p5">居住地址</p>
+                        <input type="text" placeholder="请输入详细地址">
+                        <p class="p9">请输入详细地址</p>
+                    </div>
+
+                    <div class="lo_input icon pos">
+                        <p class="p5">学 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 历</p>
+                        <input type="text" placeholder="请选择" readonly="readonly" class="Rla">
+                        <ul class="posul">
+                            <li><p class="option">初中及以下</p></li>
+                            <li><p class="option">高中</p></li>
+                            <li><p class="option">本科</p></li>
+                            <li><p class="option">硕士</p></li>
+                            <li><p class="option">博士及以上</p></li>
+                        </ul>
+                        <p class="p9">请选择学历</p>
+                    </div>
+
+                    <div class="lo_input">
+                        <p class="p5">学 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 校</p>
+                        <input type="text" placeholder="请输入学校全名">
+                    </div>
+
+                    <div class="lo_input">
+                        <p class="p5">籍 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 贯</p>
+                        <input type="text" placeholder="请输入籍贯">
+                    </div>
+
+                    <div class="lo_input">
+                        <p class="p5">是否在校</p>
+                        <ul class="ul2">
+                            <li class="onq">
+                                <span ></span>
+                                <p>是</p>
+                            </li>
+                            <li>
+                                <span></span>
+                                <p>否</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lo_input bom">
+                        <p class="p5">特 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 长</p>
+                        <span class="lo_span1">  添加特长</span>
+                    </div>
+                    <!--添加特长-->
+                    <div class="Tc">
+                    </div>
+
+                    <div class="lo_input tops Hei">
+                        <p class="p7">申请志愿者原因</p>
+                        <!--<input type="text" placeholder="请输入职务">-->
+                        <textarea placeholder="请输入参影目的"></textarea>
+                    </div>
+                    <div class="lo_input">
+                        <p class="p5">照 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 片</p>
+                        <p class="p1">未选择任何文件</p>
+                        <p class="p2">选择文件</p>
+                        <input type="file" class="filepath" />
+                    </div>
+                    <button class="btn4" >提交</button>
+
+                </div>
+
+
+
+                <!--一步-->
+                <div class="forget">
+                    <div class="for_zhao">
+                        <p>提交成功</p>
+                        <p>我们将尽快与您联系</p>
+                        <p>如有疑问</p>
+                        <span class="kuais"></span>
+                        <p>联系电话18612345678</p>
+                        <em></em>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--底部-->
+    <div class="foodToa">
+        <p>Copyright © 2017 Nextfilm Inc. 保留所有权利。</p>
+    </div>
+    <script src="dist/scripts/jquery-3.0.0.min.js"></script>
+    <script src="dist/scripts/config.js"></script>
+    <script src="dist/scripts/login.js"></script>
+    <script src="dist/scripts/postulant.js"></script>
+    <script src="dist/scripts/laydate/laydate.js"></script>
+    <script>
+        lay('#version').html('-v'+ laydate.v);
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#laydate', //指定元素
+            theme: '#393D49'
+        });
+    </script>
+</body>
+</html>
