@@ -59,7 +59,7 @@
   left: 12px;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }
 .Imgs .swiper-container-horizontal > .swiper-pagination-bullets, .Imgs .swiper-pagination-custom, .Imgs .swiper-pagination-fraction {
-  bottom: 59px; }
+  bottom: 15px; }
 .Imgs .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
@@ -255,7 +255,11 @@
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  img{
+    opacity: .7;
+  }
+}
 .enterprise .enterprise_titleb {
   width: 988px;
   height: 44px;
@@ -293,4 +297,8 @@
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  img{
+    opacity: .7;
+  }
+}
