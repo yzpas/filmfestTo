@@ -1,0 +1,166 @@
+.train_Main {
+  width: 100%;
+  overflow: hidden;
+  background: url("../../images/login1.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin-top: 105px; }
+  .train_Main .forumBox {
+    width: 953px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 76px 0 126px; }
+    .train_Main .forumBox .forum_lf {
+      width: 173px;
+      float: left; }
+      .train_Main .forumBox .forum_lf .forum_Ul {
+        width: 100%; }
+        .train_Main .forumBox .forum_lf .forum_Ul li {
+          width: 173px;
+          height: 53px;
+          line-height: 41px;
+          border: 6px solid rgba(136, 105, 75, 0.25);
+          font-size: 14px;
+          color: #886d4b;
+          padding-left: 33px;
+          box-sizing: border-box;
+          margin-bottom: 12px;
+          cursor: pointer; }
+        .train_Main .forumBox .forum_lf .forum_Ul .froum_select {
+          border: 0;
+          background: url("../../images/xian.jpg") no-repeat 26px center rgba(136, 105, 75, 0.8);
+          color: #ffffff;
+          font-weight: bold;
+          line-height: 53px; }
+    .train_Main .forumBox .displayB {
+      display: block !important; }
+    .train_Main .forumBox .forum_rf {
+      width: 700px;
+      float: right;
+      padding-bottom: 30px;
+      display: none;
+      margin-top: 16px; }
+      .train_Main .forumBox .forum_rf .forum_rf_list {
+        overflow: hidden;
+        margin-bottom: 37px; }
+        .train_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_theme {
+          font-size: 18px;
+          color: #ffffff;
+          line-height: 18px;
+          padding-left: 12px;
+          background: url("../../images/xianTo.jpg") no-repeat left center;
+          font-weight: bold;
+          margin-bottom: 12px; }
+        .train_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_introduce {
+          font-size: 14px;
+          color: #ffffff;
+          text-align: justify;
+          line-height: 36px;
+          margin-left: 10px;
+          box-sizing: border-box; }
+        .train_Main .forumBox .forum_rf .forum_rf_list .borderBom {
+          border-bottom: 1px solid rgba(136, 109, 75, 0.6);
+          padding-bottom: 40px; }
+        .train_Main .forumBox .forum_rf .forum_rf_list .trainUl {
+          width: 100%;
+          padding-left: 10px;
+          box-sizing: border-box; }
+          .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li {
+            width: 100%; }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .train_title {
+              font-size: 18px;
+              line-height: 18px;
+              color: #ffffff;
+              font-weight: bold;
+              position: relative;
+              margin-top: 21px; }
+              .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .train_title p {
+                width: 590px;
+                height: 1px;
+                background: #886d4b;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(0, -50%); }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .outline {
+              font-size: 14px;
+              color: #ffffff;
+              text-align: justify;
+              line-height: 36px;
+              margin-top: 8px; }
+              .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .outline p {
+                font-weight: bold;
+                float: left; }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers {
+              width: 100%;
+              margin-top: 20px;
+              overflow: hidden; }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_Img {
+              width: 299px;
+              height: 396px;
+              background: url("../../images/BjTo.jpg") no-repeat center;
+              float: left; }
+              .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_Img img {
+                width: 287px;
+                height: 396px;
+                margin-left: 6px; }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .twohuman {
+              margin-top: 68px; }
+            .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf {
+              float: left;
+              margin-left: 33px;
+              width: 357px; }
+              .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList {
+                overflow: hidden;
+                margin-bottom: 53px; }
+                .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList .ProducersList_Img {
+                  width: 90px;
+                  height: 90px;
+                  border-radius: 50%;
+                  border: 2px solid #886d4b;
+                  float: left; }
+                .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList .Producersp {
+                  float: left;
+                  margin-left: 25px;
+                  margin-top: 9px; }
+                  .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList .Producersp p {
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #ffffff;
+                    margin-bottom: 10px; }
+                  .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList .Producersp p:nth-child(1) {
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 18px;
+                    margin-bottom: 18px; }
+                .train_Main .forumBox .forum_rf .forum_rf_list .trainUl li .Producers_rf .ProducersList .two {
+                  margin-top: 23px; }
+      .train_Main .forumBox .forum_rf .train_music {
+        width: 100%;
+        margin-left: 10px;
+        overflow: hidden; }
+        .train_Main .forumBox .forum_rf .train_music .musicImg {
+          width: 299px;
+          height: 209px;
+          background: url("../../images/BjTo3.jpg") no-repeat center;
+          float: left; }
+          .train_Main .forumBox .forum_rf .train_music .musicImg img {
+            width: 299px;
+            height: 200px;
+            margin-top: 4px; }
+        .train_Main .forumBox .forum_rf .train_music .music_introduce {
+          float: left;
+          margin-left: 20px;
+          width: 376px;
+          margin-top: 8px; }
+          .train_Main .forumBox .forum_rf .train_music .music_introduce p {
+            width: 376px;
+            font-size: 12px;
+            line-height: 12px;
+            padding-bottom: 12px;
+            color: #ffffff;
+            word-wrap: break-word; }
+          .train_Main .forumBox .forum_rf .train_music .music_introduce p:nth-child(1), .train_Main .forumBox .forum_rf .train_music .music_introduce p:nth-child(2) {
+            font-size: 16px;
+            line-height: 16px;
+            padding-bottom: 15px;
+            font-weight: bold; }

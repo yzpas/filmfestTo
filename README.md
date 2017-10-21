@@ -36,5 +36,12 @@ class 都是 login
 额  不懂问我
 
 
+2017/10/21
+forum.html  -- 论坛
+train.html   -- 训练营
+
+
+
+
 
 

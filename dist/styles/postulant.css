@@ -52,7 +52,9 @@ input, button, textarea, select {
           cursor: pointer;
           margin-bottom: 31px; }
         .login_main .login .login_nei .lo_ul li.on {
-          font-weight: bold; }
+          font-weight: bold;
+          background: url("../../images/xian_hover.jpg") no-repeat 10px center #000;
+          color: #8a755d; }
         .login_main .login .login_nei .lo_ul li:nth-child(1) {
           width: 81px; }
         .login_main .login .login_nei .lo_ul li:nth-child(2) {
