@@ -78,6 +78,7 @@ $breakpoints: (
               font-size: 12px;
               color: #886d4b;
               transition: all 0.3s ease-in 0s;
+              font-weight: bold;
             }
           }
           .ti_ulTo li a:hover{
@@ -183,12 +184,15 @@ $breakpoints: (
     margin: 0 auto;
     .nei{
       width: 525px;
+      p{
+        opacity: .85;
+      }
       .nei_pa{
         font-size: 14px;
         line-height: 14px;
         font-weight: bold;
         color: #fff;
-        //opacity: 0.5;
+        opacity: 0.85;
         margin-top: 58px;
         padding-bottom: 7px;
         border-bottom: 1px solid #fff;

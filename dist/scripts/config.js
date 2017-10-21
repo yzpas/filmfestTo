@@ -43,15 +43,27 @@ $(function(){
         $(".title").addClass("overflow")
 
     });
+    //首页
+    $(".news_ul_To li").hover(function(){
+        $(this).find(".popu").stop().animate({
+            "opacity":"0"
+        },200);
+    },function(){
+        $(this).find(".popu").stop().animate({
+            "opacity":"1"
+        },200);
+    });
+
     $(".wxa").hover(function(){
         $(".pup").stop().animate({
             "opacity":"1"
-        },200)
+        },200);
+        $(this).removeClass("overflow");
     },function(){
         $(".pup").stop().animate({
             "opacity":"0"
-        },200)
-        //$(".pup").fadeOut(200);
+        },200);
+        $(this).addClass("overflow")
     });
     /*检测滚动显示返回按钮*/
     $(window).scroll(function() {
