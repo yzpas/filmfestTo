@@ -46,9 +46,10 @@
             float: left;
             padding-top: 20px;
             z-index: 100;
-            width: 114px;
+            width: 104px;
             text-align: center;
-            opacity: 0; }
+            opacity: 0;
+            padding-left: 8px; }
             .title .title_main .nav .ti_ul li.li_a .ti_ulTo li {
               line-height: 16px;
               padding-bottom: 8px; }
