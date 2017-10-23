@@ -6,6 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/dist/scripts/postulant.js" line="42" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="7c47a8c3-7cd7-461e-beb8-3a064549623e" name="Default" comment="" />
+=======
     <list default="true" id="7c47a8c3-7cd7-461e-beb8-3a064549623e" name="Default" comment="">
 <<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -14,6 +17,7 @@
 >>>>>>> fc4c726e764d793674aa4af5d7aca6c84f1f0da1
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/index.scss" afterPath="$PROJECT_DIR$/scss/index.scss" />
     </list>
+>>>>>>> 840fe75f553f6af19c243b1d0955ef6c37444b8c
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -424,19 +428,27 @@
       <workItem from="1507690419513" duration="8251000" />
       <workItem from="1507723245542" duration="440000" />
 <<<<<<< HEAD
+      <workItem from="1507776622391" duration="2377000" />
+=======
+<<<<<<< HEAD
       <workItem from="1507725442483" duration="28000" />
 =======
       <workItem from="1507776622391" duration="1778000" />
 >>>>>>> fc4c726e764d793674aa4af5d7aca6c84f1f0da1
+>>>>>>> 840fe75f553f6af19c243b1d0955ef6c37444b8c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+    <option name="totallyTimeSpent" value="87760000" />
+=======
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="85411000" />
 =======
     <option name="totallyTimeSpent" value="87161000" />
 >>>>>>> fc4c726e764d793674aa4af5d7aca6c84f1f0da1
+>>>>>>> 840fe75f553f6af19c243b1d0955ef6c37444b8c
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,7 +460,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1934" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1934" height="1056" extended-state="1" />
     <layout>
 <<<<<<< HEAD
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14451477" sideWeight="0.55700326" order="2" side_tool="true" content_ui="tabs" />
