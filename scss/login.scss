@@ -48,6 +48,8 @@ input,button{
         }
         li.on{
           font-weight: bold;
+          background: url("../../images/xian_hover.jpg")no-repeat 10px center #000;
+          color: #8a755d;
         }
         li:nth-child(1){
           width:81px;
