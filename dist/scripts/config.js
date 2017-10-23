@@ -98,6 +98,7 @@ $(function(){
         $(this).addClass("froum_select_To").siblings().removeClass("froum_select");
         $(".forum_Ul_ul1").attr("class", "forum_Ul_ul_li_selct");
         $(".forum_Ul_ul2").attr("class", "");
+
     });
     $(".forum_Ul .forum_Ul_li_to").click(function(){
         $(this).addClass("froum_select").siblings().removeClass("froum_select_To");
@@ -107,5 +108,24 @@ $(function(){
     });
     $(".forum_Ul_ul li").click(function(){
         $(this).addClass("forum_Ul_ul_li_selct").siblings().removeClass("forum_Ul_ul_li_selct");
+        var indexa = $('.forum_Ul_ul li').index(this);
+       // alert(indexa);
+        if(indexa != 0){
+            $(".rfBox1").hide();
+            $(".rfBox2").show();
+        }else{
+            $(".rfBox1").show();
+            $(".rfBox2").hide();
+        }
+            $(".rfBox2 .forum_rf2").removeClass("displayB").eq($('.forum_Ul_ul li').index(this)-1).addClass("displayB")
+
     });
+
+    $(".forum_select_li li").click(function(){
+        //var indexb = $('.forum_Ul  li').index(this);
+        //alert(indexb);
+         // alert($('.forum_select_li li').index(this));
+        $(".rfBox1 .forum_rf1").removeClass("displayB").eq($('.forum_Ul  li').index(this)).addClass("displayB")
+    })
+
 });

@@ -206,7 +206,7 @@
       //}
       .forum_rf_list{
         overflow: hidden;
-        margin-top: 37px;
+        margin-bottom: 37px;
         .forum_rf_list_theme{
           font-size: 18px;
           color: #ffffff;
@@ -221,6 +221,7 @@
           color: #ffffff;
           text-align: justify;
           line-height: 36px;
+          margin-left: 12px;
         }
         .forum_rf_list_ul{
           width:100%;
@@ -278,39 +279,93 @@
           }
         }
       }
-      .train_music{
-        width:100%;
-        margin-left: 10px;
-        overflow: hidden;
-        .musicImg{
-          width:299px;
-          height:209px;
-          background: url("../../images/BjTo3.jpg") no-repeat center;
-          float: left;
-          img{
-            width:299px;
-            height:200px;
-            margin-top: 4px;
-          }
+      .MarginBom{
+        margin-bottom: 10px;
+      }
+      .scienceList{
+        width: 100%;
+        .scienceList_title{
+          font-size: 14px;
+          line-height: 14px;
+          padding: 10px 0 20px;
+          color: #ffffff;
+          font-weight: bold;
         }
-        .music_introduce{
-          float: left;
-          margin-left: 20px;
-          width:376px;
-          margin-top: 8px;
-          p{
-            width:376px;
-            font-size: 12px;
-            line-height: 12px;
-            padding-bottom: 12px;
-            color: #ffffff;
-            word-wrap:break-word ;
+        .scienceListUl{
+          width:100%;
+          padding-top: 7px;
+          li:nth-child(1){
+            padding-top: 0;
           }
-          p:nth-child(1),p:nth-child(2){
-            font-size: 16px;
-            line-height: 16px;
-            padding-bottom: 15px;
-            font-weight: bold;
+          li:last-child{
+           border-bottom: none;
+          }
+          li{
+            width:100%;
+            height:252px;
+            border-bottom: 1px solid rgba(136,109,75,.5);
+            padding: 33px 0;
+            .scienceListImg{
+              width:188px;
+              height:252px;
+              background: url("../../images/BjTo4.jpg") no-repeat center;
+              margin-right: 20px;
+              float: left;
+              img{
+                width:180px;
+                height:252px;
+                margin-left: 4px;
+              }
+            }
+            .scienceListrf{
+              width:490px;
+              float: left;
+              p{
+                color: #ffffff;
+              }
+              p:nth-child(1){
+                font-size: 16px;
+                line-height: 16px;
+                font-weight: bold;
+                margin: 30px 0 7px;
+              }
+              p:nth-child(2){
+                font-size: 16px;
+                line-height: 16px;
+                font-weight: bold;
+                margin-bottom: 12px;
+              }
+              p:nth-child(3){
+                font-size: 14px;
+                line-height: 14px;
+                margin-bottom: 6px;
+              }
+              p:nth-child(4){
+                font-size: 14px;
+                line-height: 14px;
+                margin-bottom: 6px;
+              }
+              p:nth-child(5){
+                font-size: 14px;
+                line-height: 14px;
+                margin-bottom: 16px;
+              }
+              p:nth-child(6){
+                font-size: 16px;
+                line-height: 16px;
+                font-weight: bold;
+                margin-bottom: 6px;
+              }
+              p:nth-child(7){
+                font-size: 12px;
+                line-height: 20px;
+                text-align: justify;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 4;
+                overflow: hidden;
+              }
+            }
           }
         }
       }
