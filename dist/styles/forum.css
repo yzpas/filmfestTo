@@ -1,14 +1,12 @@
 .forum_Main {
   width: 100%;
   overflow: hidden;
-  background: url("../../images/login1.jpg") no-repeat;
-  background-size: 100% 100%;
-  margin-top: 105px; }
+  background: url("../../images/login2.jpg") repeat-y; }
   .forum_Main .forumBox {
     width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 76px 0 126px; }
+    padding: 181px 0 126px; }
     .forum_Main .forumBox .forum_lf {
       width: 185px;
       float: left; }
@@ -36,10 +34,11 @@
       width: 700px;
       float: right;
       padding-bottom: 30px;
-      display: none; }
+      display: none;
+      margin-top: 16px; }
       .forum_Main .forumBox .forum_rf .forum_rf_list {
         overflow: hidden;
-        margin-top: 37px; }
+        margin-bottom: 37px; }
         .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_theme {
           font-size: 18px;
           color: #ffffff;

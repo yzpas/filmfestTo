@@ -1,14 +1,12 @@
 .train_Main {
   width: 100%;
   overflow: hidden;
-  background: url("../../images/login1.jpg") no-repeat;
-  background-size: 100% 100%;
-  margin-top: 105px; }
+  background: url("../../images/login2.jpg") repeat-y; }
   .train_Main .forumBox {
     width: 953px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 76px 0 126px; }
+    padding: 181px 0 126px; }
     .train_Main .forumBox .forum_lf {
       width: 185px;
       float: left; }
