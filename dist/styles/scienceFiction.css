@@ -43,7 +43,7 @@
               font-weight: 100 !important; }
             .train_Main .forumBox .forum_lf .forum_Ul li.ulTos .forum_Ul_ul .forum_Ul_ul_li_selct {
               border: 0;
-              background: center rgba(136, 105, 75, 0.8);
+              background: url("../../images/xian.jpg") no-repeat 14px center rgba(136, 105, 75, 0.8);
               color: #ffffff;
               font-weight: bold !important;
               line-height: 34px; }

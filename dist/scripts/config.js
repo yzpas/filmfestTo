@@ -95,13 +95,13 @@ $(function(){
 
 //    科幻单元 切换
     $(".forum_Ul .ulTos").click(function(){
-        $(this).addClass("froum_select_To").siblings().removeClass("froum_select");
+        $(this).addClass("froum_select").siblings().removeClass("froum_select");
         $(".forum_Ul_ul1").attr("class", "forum_Ul_ul_li_selct");
         $(".forum_Ul_ul2").attr("class", "");
 
     });
     $(".forum_Ul .forum_Ul_li_to").click(function(){
-        $(this).addClass("froum_select").siblings().removeClass("froum_select_To");
+        $(this).addClass("froum_select").siblings().removeClass("froum_select");
         $(".forum_Ul_ul li").eq(0).attr("class", "forum_Ul_ul1 ");
         $(".forum_Ul_ul li").eq(1).attr("class", "");
         $(".forum_Ul_ul li").eq(2).attr("class", "");

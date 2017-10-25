@@ -13,6 +13,11 @@ $breakpoints: (
     @content;
   }
 }
+
+//通用最小高度
+.train_Main{
+  min-height:959px;
+}
 /*头部*/
 .overflow{
   overflow: hidden;
