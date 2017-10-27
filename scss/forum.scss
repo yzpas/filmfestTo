@@ -25,6 +25,9 @@
           margin-bottom: 12px;
           cursor: pointer;
         }
+        li:nth-child(4){
+          height: 84px;
+        }
         .froum_select{
           border:0;
           background:url("../../images/xian.jpg") no-repeat 18px 16px rgba(136,105,75,.8);
@@ -45,7 +48,7 @@
       margin-top: 16px;
       .forum_rf_list{
         overflow: hidden;
-        margin-bottom: 37px;
+        margin-bottom: 20px;
         .forum_rf_list_theme{
           font-size: 18px;
           color: #ffffff;
@@ -60,6 +63,7 @@
           color: #ffffff;
           text-align: justify;
           line-height: 36px;
+          margin-left: 10px;
         }
         .forum_rf_list_ul{
           width:100%;

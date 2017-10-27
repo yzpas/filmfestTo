@@ -1,0 +1,100 @@
+.train_Main {
+  width: 100%;
+  overflow: hidden;
+  background: url("../../images/login2.jpg") repeat-y; }
+  .train_Main .forumBox {
+    width: 953px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 181px 0 126px; }
+    .train_Main .forumBox .forum_lf {
+      width: 173px;
+      float: left; }
+      .train_Main .forumBox .forum_lf .forum_Ul {
+        width: 100%; }
+        .train_Main .forumBox .forum_lf .forum_Ul li {
+          width: 173px;
+          height: 53px;
+          line-height: 41px;
+          border: 6px solid rgba(136, 105, 75, 0.25);
+          font-size: 14px;
+          color: #886d4b;
+          padding-left: 33px;
+          box-sizing: border-box;
+          margin-bottom: 12px;
+          cursor: pointer; }
+        .train_Main .forumBox .forum_lf .forum_Ul .froum_select {
+          border: 0;
+          background: url("../../images/xian.jpg") no-repeat 26px center rgba(136, 105, 75, 0.8);
+          color: #ffffff;
+          font-weight: bold;
+          line-height: 53px; }
+    .train_Main .forumBox .displayB {
+      display: block !important; }
+    .train_Main .forumBox .forum_rf {
+      width: 700px;
+      float: right;
+      padding-bottom: 30px;
+      display: none;
+      margin-top: 16px; }
+      .train_Main .forumBox .forum_rf .openingBox {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 36px; }
+        .train_Main .forumBox .forum_rf .openingBox .openingImg {
+          width: 200px;
+          height: 265px;
+          background: url("../../images/Bj.jpg") no-repeat center;
+          background-size: 200px 249px;
+          float: left;
+          margin-right: 25px; }
+          .train_Main .forumBox .forum_rf .openingBox .openingImg img {
+            width: 190px;
+            height: 265px;
+            margin-left: 5px; }
+        .train_Main .forumBox .forum_rf .openingBox .projectMain {
+          width: 470px;
+          padding-top: 100px;
+          float: left; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p {
+            width: auto;
+            height: 26px;
+            line-height: 26px;
+            color: #ffffff;
+            background: rgba(136, 109, 75, 0.8);
+            padding: 0 17px;
+            margin-bottom: 8px;
+            float: left;
+            font-size: 14px; }
+            .train_Main .forumBox .forum_rf .openingBox .projectMain p span {
+              font-weight: bold;
+              font-size: 14px; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p:nth-child(1) {
+            font-size: 18px; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p:nth-child(2) {
+            clear: both; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p:nth-child(3) {
+            clear: both; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p:nth-child(4) {
+            clear: both; }
+          .train_Main .forumBox .forum_rf .openingBox .projectMain p:nth-child(5) {
+            clear: both; }
+        .train_Main .forumBox .forum_rf .openingBox .forum_rf_list {
+          overflow: hidden;
+          padding-top: 34px;
+          clear: both; }
+          .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .forum_rf_list_theme {
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 18px;
+            padding-left: 12px;
+            background: url("../../images/xianTo.jpg") no-repeat left center;
+            font-weight: bold;
+            margin-bottom: 12px; }
+          .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .forum_rf_list_introduce {
+            font-size: 14px;
+            color: #ffffff;
+            text-align: justify;
+            line-height: 36px;
+            margin-left: 10px;
+            box-sizing: border-box; }

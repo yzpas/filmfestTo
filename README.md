@@ -45,6 +45,14 @@ train.html   -- 训练营
 
 scienceFiction.html  -- 科幻单元
 
+2017/10/28
+
+openingFilm.html  --开幕影片
+perform.html  --创投路演
+exhibition.html  -- 展映
+aboutFilmFestival.html -- 关于影节
+
+修改首页 （index）的头部菜单栏
 
 
 

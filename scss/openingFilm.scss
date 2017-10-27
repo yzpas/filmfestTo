@@ -1,0 +1,125 @@
+.train_Main{
+  width:100%;
+  overflow: hidden;
+  background: url("../../images/login2.jpg") repeat-y;
+  .forumBox {
+    width: 953px;
+    //height:1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 181px 0 126px;
+    .forum_lf{
+      width:173px;
+      float: left;
+      .forum_Ul{
+        width:100%;
+        li{
+          width:173px;
+          height:53px;
+          line-height: 41px;
+          border: 6px solid rgba(136,105,75,.25);
+          font-size: 14px;
+          color: #886d4b;
+          padding-left: 33px;
+          box-sizing: border-box;
+          margin-bottom: 12px;
+          cursor: pointer;
+        }
+        .froum_select{
+          border:0;
+          background:url("../../images/xian.jpg") no-repeat 26px center rgba(136,105,75,.8);
+          color: #ffffff;
+          font-weight: bold;
+          line-height: 53px;
+          //padding: 11px 0 0 24px;
+        }
+      }
+    }
+    .displayB{
+      display: block !important;
+    }
+    .forum_rf{
+      width:700px;
+      float: right;
+      padding-bottom: 30px;
+      display: none;
+      margin-top: 16px;
+      .openingBox{
+        width:100%;
+        overflow: hidden;
+        padding-top: 36px;
+        .openingImg{
+          width:200px;
+          height:265px;
+          background: url("../../images/Bj.jpg")no-repeat center;
+          background-size: 200px 249px;
+          float: left;
+          margin-right: 25px;
+          img{
+            width:190px;
+            height:265px;
+            margin-left: 5px;
+          }
+        }
+        .projectMain{
+          width:470px;
+          padding-top: 100px;
+          float: left;
+          p{
+            width:auto;
+            height:26px;
+            line-height: 26px;
+            color: #ffffff;
+            background: rgba(136,109,75,.8);
+            padding: 0 17px;
+            margin-bottom: 8px;
+            float: left;
+            font-size: 14px;
+            span{
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
+          p:nth-child(1){
+            font-size: 18px;
+          }
+          p:nth-child(2){
+           clear: both;
+          }
+          p:nth-child(3){
+            clear: both;
+          }
+          p:nth-child(4){
+            clear: both;
+          }
+          p:nth-child(5){
+            clear: both;
+          }
+        }
+        .forum_rf_list {
+          overflow: hidden;
+          padding-top: 34px;
+          clear: both;
+          .forum_rf_list_theme {
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 18px;
+            padding-left: 12px;
+            background: url("../../images/xianTo.jpg") no-repeat left center;
+            font-weight: bold;
+            margin-bottom: 12px;
+
+          }
+          .forum_rf_list_introduce {
+            font-size: 14px;
+            color: #ffffff;
+            text-align: justify;
+            line-height: 36px;
+            margin-left: 10px;
+            box-sizing: border-box;
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,6 +22,8 @@
           box-sizing: border-box;
           margin-bottom: 12px;
           cursor: pointer; }
+        .forum_Main .forumBox .forum_lf .forum_Ul li:nth-child(4) {
+          height: 84px; }
         .forum_Main .forumBox .forum_lf .forum_Ul .froum_select {
           border: 0;
           background: url("../../images/xian.jpg") no-repeat 18px 16px rgba(136, 105, 75, 0.8);
@@ -38,7 +40,7 @@
       margin-top: 16px; }
       .forum_Main .forumBox .forum_rf .forum_rf_list {
         overflow: hidden;
-        margin-bottom: 37px; }
+        margin-bottom: 20px; }
         .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_theme {
           font-size: 18px;
           color: #ffffff;
@@ -51,7 +53,8 @@
           font-size: 14px;
           color: #ffffff;
           text-align: justify;
-          line-height: 36px; }
+          line-height: 36px;
+          margin-left: 10px; }
         .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_ul {
           width: 100%; }
           .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_ul li {
