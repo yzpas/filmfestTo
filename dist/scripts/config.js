@@ -126,6 +126,17 @@ $(function(){
         //alert(indexb);
          // alert($('.forum_select_li li').index(this));
         $(".rfBox1 .forum_rf1").removeClass("displayB").eq($('.forum_Ul  li').index(this)).addClass("displayB")
-    })
+    });
 
+//    创投路演 点击切换
+    $(".performUlTo li").click(function(){
+        var $index = $(this).index();
+        $(this).addClass("liToselect").siblings().removeClass("liToselect");
+        $(this).parent(".performUlTo").siblings().find("div").removeClass("displayB").eq($index).addClass("displayB")
+    });
+    $(".performUlTos li").click(function(){
+        var $index = $(this).index();
+        $(this).addClass("liToselect").siblings().removeClass("liToselect");
+        $(this).parent(".performUlTos").siblings(".performUlTo_Main").find("div").removeClass("displayB").eq($index).addClass("displayB")
+    })
 });
