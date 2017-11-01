@@ -138,5 +138,5 @@ $(function(){
         var $index = $(this).index();
         $(this).addClass("liToselect").siblings().removeClass("liToselect");
         $(this).parent(".performUlTos").siblings(".performUlTo_Main").find("div").removeClass("displayB").eq($index).addClass("displayB")
-    })
+    });
 });

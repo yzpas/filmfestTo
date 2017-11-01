@@ -187,7 +187,7 @@
                   line-height: 16px; }
               .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRfTo {
                 width: 426px;
-                margin-top: 3px;
+                margin-top: 16px;
                 float: left; }
                 .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRfTo .xians {
                   height: 14px;
@@ -297,3 +297,40 @@
 
 .swiper-button-next, .swiper-button-prev {
   top: 124px; }
+
+.performUlTo1_ul {
+  overflow: hidden; }
+  .performUlTo1_ul li {
+    width: 103px;
+    height: 146px;
+    border: 6px solid #6e593e;
+    margin-right: 30px;
+    float: left;
+    cursor: pointer; }
+    .performUlTo1_ul li img {
+      width: 103px;
+      height: 146px;
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray; }
+  .performUlTo1_ul li:hover img {
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    filter: none; }
+  .performUlTo1_ul li:last-child {
+    margin-right: 0; }
+
+.apply {
+  overflow: hidden; }
+
+.institution {
+  overflow: hidden;
+  margin-top: 40px; }
+  .institution img {
+    width: 585px;
+    height: 138px;
+    display: block; }

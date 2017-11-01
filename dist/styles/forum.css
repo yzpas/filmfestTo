@@ -55,6 +55,8 @@
           text-align: justify;
           line-height: 36px;
           margin-left: 10px; }
+          .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_introduce span {
+            padding-right: 10px; }
         .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_ul {
           width: 100%; }
           .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_ul li {
@@ -100,3 +102,44 @@
                 line-height: 20px; }
           .forum_Main .forumBox .forum_rf .forum_rf_list .forum_rf_list_ul li:nth-child(3n) {
             margin: 13px 0 20px  0; }
+        .forum_Main .forumBox .forum_rf .forum_rf_list .compere {
+          width: 100%;
+          margin-top: 29px;
+          overflow: hidden; }
+          .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compereBox {
+            width: 169px;
+            height: 225px;
+            background: url("../../images/Bj.jpg") no-repeat center;
+            background-size: 169px 210px;
+            float: left; }
+            .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compereBox img {
+              width: 161px;
+              height: 225px;
+              display: block;
+              margin-left: 4px; }
+          .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compere_introduce {
+            width: 530px;
+            float: left;
+            margin-top: 52px;
+            padding-left: 17px;
+            box-sizing: border-box; }
+            .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compere_introduce p {
+              color: #ffffff;
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 32px; }
+            .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compere_introduce p:nth-child(2) {
+              font-size: 14px;
+              line-height: 38px;
+              font-weight: 100;
+              text-align: justify; }
+          .forum_Main .forumBox .forum_rf .forum_rf_list .compere .compere_introduce_dv1 {
+            width: 100%;
+            font-size: 14px;
+            line-height: 38px;
+            text-align: justify;
+            color: #ffffff; }
+
+.rfBox {
+  overflow: hidden;
+  padding-bottom: 20px; }
