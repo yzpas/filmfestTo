@@ -64,10 +64,12 @@
           text-align: justify;
           line-height: 36px;
           margin-left: 10px;
+          border-bottom: 1px solid rgba(136,105,75,1);
           span{
             padding-right: 10px;
           }
         }
+        .noBorder{border-bottom: none !important;}
         .forum_rf_list_ul{
           width:100%;
           li{
@@ -165,6 +167,7 @@
             line-height: 38px;
             text-align: justify;
             color: #ffffff;
+            overflow: hidden;
           }
         }
       }

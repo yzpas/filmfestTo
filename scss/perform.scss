@@ -200,7 +200,6 @@
               .performRf{
                 width:426px;
                 margin-top: 10px;
-                border-top: 2px solid rgba(136,109,75,.5);
                 float: left;
                 p{
                   font-size: 14px;
@@ -297,6 +296,7 @@
                 width:100%;
                 height:32px;
                 background: url("../../images/liTos.png") no-repeat right center;
+                background-size: 315px 2px;
                 clear: both;
                 margin-top: 28px;
                 float: left;
