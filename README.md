@@ -54,6 +54,16 @@ aboutFilmFestival.html -- 关于影节
 
 修改首页 （index）的头部菜单栏
 
+创投洽谈去掉了
+
+
+2017/11/1
+forum.html  -- 论坛  四个页面内容修改
+
+opening.html  --开幕酒会
+
+institution.html -- 常设机构
+
 
 
 

@@ -6,7 +6,7 @@
     width: 953px;
     //height:1000px;
     margin: 0 auto;
-    overflow: hidden;
+    //overflow: hidden;
     padding: 181px 0 126px;
     .forum_lf{
       width:173px;
@@ -41,12 +41,12 @@
     .forum_rf{
       width:700px;
       float: right;
-      padding-bottom: 30px;
+      padding-bottom: 172px !important;
       display: none;
       margin-top: 16px;
       .openingBox{
         width:100%;
-        overflow: hidden;
+        //overflow: hidden;
 
         .openingImg{
           width:200px;
@@ -128,7 +128,7 @@
           .ent_mainb{
             width: 805px;
             margin-top: 26px;
-            margin-left: -53px;
+            margin-left: -48px;
             position: relative;
             .swiper-container2{
               width:700px;
@@ -168,10 +168,10 @@
             }
             .swiper-button-next {
               background: url("../../images/rightTo.png") no-repeat center;
-              right: 27px; }
+              right: 0; }
             .swiper-button-prev {
               background: url("../../images/leftTo.png") no-repeat center;
-              left: 27px; }
+              left: 0; }
           }
           .performUl{
             width: 100%;
@@ -230,7 +230,7 @@
               }
               .performRfTo{
                 width:426px;
-                margin-top: 3px;
+                margin-top: 16px;
                 float: left;
                 .xians{
                   height:14px;
@@ -320,6 +320,7 @@
                 padding-top: 12px;
                 .performUlTo1{
                   overflow: hidden;
+                  display: none;
                   p{
                     font-size: 14px;
                     color: #ffffff;
@@ -355,5 +356,69 @@
         }
       }
     }
+  }
+}
+.rfBoxTo{
+  //overflow: hidden;
+  .forum_rfTo{
+    width: auto !important;
+
+    .forum_rf_list{
+      width: 700px;
+      float: right;
+    }
+    .forum_rf_list:nth-child(2){
+      width:  770px;
+      margin-right: -70px;
+      padding-left: 60px;
+    }
+  }
+}
+.swiper-button-next, .swiper-button-prev{
+  top:124px;
+}
+.performUlTo1_ul{
+  overflow: hidden;
+  li{
+    width:103px;
+    height:146px;
+    border:6px solid #6e593e;
+    margin-right: 30px;
+    float: left;
+    cursor: pointer;
+    img{
+      width:103px;
+      height:146px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+    }
+  }
+  li:hover img{
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    filter: none;
+  }
+  li:last-child{
+    margin-right: 0;
+  }
+}
+.apply{
+  overflow: hidden;
+}
+//institution
+.institution{
+  overflow: hidden;
+  margin-top: 40px;
+  img{
+    width:585px;
+    height:138px;
+    display: block;
   }
 }
