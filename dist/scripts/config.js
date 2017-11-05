@@ -139,4 +139,51 @@ $(function(){
         $(this).addClass("liToselect").siblings().removeClass("liToselect");
         $(this).parent(".performUlTos").siblings(".performUlTo_Main").find("div").removeClass("displayB").eq($index).addClass("displayB")
     });
+
+
+    //    创投路演 评委介绍
+    $(".forum_rf_list_theme_ul li").click(function(){
+
+        var $index = $(this).index();
+        $(this).addClass("theme_liToselect").siblings().removeClass("theme_liToselect");
+        $(this).parent(".forum_rf_list_theme_ul").siblings().find(".ent_mainb").removeClass("displayB").eq($index).addClass("displayB");
+        if($index == 1){
+            var swiper4 = new Swiper('.swiper-container4', {
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true,
+                spaceBetween: 65,
+                centeredSlides: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                slidesPerView: 3,
+                loop: true
+            });
+        }else if($index == 2){
+            var swiper5 = new Swiper('.swiper-container5', {
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true,
+                spaceBetween: 65,
+                centeredSlides: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                slidesPerView: 3,
+                loop: true
+            });
+        }else{
+            var swiper2 = new Swiper('.swiper-container2', {
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true,
+                spaceBetween: 65,
+                centeredSlides: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                slidesPerView: 3,
+                loop: true
+            });
+        }
+    });
+
 });

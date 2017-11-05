@@ -127,9 +127,10 @@
           }
           .ent_mainb{
             width: 805px;
-            margin-top: 26px;
+            margin-top: 60px;
             margin-left: -48px;
             position: relative;
+            display: none;
             .swiper-container2{
               width:700px;
               margin-left: 53px;
@@ -422,3 +423,4 @@
     display: block;
   }
 }
+.forum_rf_list_theme_ul{width:100%;float:left;}.forum_rf_list_theme_ul li{float:left; height:61px;line-height: 61px;font-size: 16px;color: rgba(255,255,255,.5);font-weight: 700;margin-right: 46px;cursor: pointer}.forum_rf_list_theme_ul li.theme_liToselect{color: #886d4b;}
