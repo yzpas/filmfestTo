@@ -103,9 +103,10 @@
               margin-bottom: 8px; }
           .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .ent_mainb {
             width: 805px;
-            margin-top: 26px;
+            margin-top: 60px;
             margin-left: -48px;
-            position: relative; }
+            position: relative;
+            display: none; }
             .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .ent_mainb .swiper-container2 {
               width: 700px;
               margin-left: 53px; }
@@ -164,7 +165,6 @@
               .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRf {
                 width: 426px;
                 margin-top: 10px;
-                border-top: 2px solid rgba(136, 109, 75, 0.5);
                 float: left; }
                 .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRf p {
                   font-size: 14px;
@@ -218,8 +218,6 @@
                   font-weight: bold; }
                   .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRfTo p.Pa span {
                     font-size: 26px; }
-                .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performRfTo p:nth-child(5) {
-                  margin-bottom: 26px; }
               .train_Main .forumBox .forum_rf .openingBox .forum_rf_list .performUl .performli .performUlTo {
                 width: 100%;
                 height: 42px;
@@ -241,6 +239,7 @@
                 width: 100%;
                 height: 32px;
                 background: url("../../images/liTos.png") no-repeat right center;
+                background-size: 315px 2px;
                 clear: both;
                 margin-top: 28px;
                 float: left; }
@@ -267,23 +266,26 @@
                     color: #ffffff;
                     line-height: 26px;
                     padding-bottom: 8px; }
-      .train_Main .forumBox .forum_rf .page {
-        height: 20px;
-        line-height: 20px;
-        margin-left: 390px; }
-        .train_Main .forumBox .forum_rf .page p {
-          float: left;
-          font-size: 16px;
-          color: #886d4b;
-          margin-right: 28px;
-          cursor: pointer; }
-        .train_Main .forumBox .forum_rf .page .pageSlect {
-          font-weight: bold; }
-        .train_Main .forumBox .forum_rf .page P:last-child {
-          margin-right: 0;
-          font-weight: bold; }
-        .train_Main .forumBox .forum_rf .page P:first-child {
-          font-weight: bold; }
+
+.page {
+  height: 20px;
+  line-height: 20px;
+  margin-left: 390px;
+  overflow: hidden;
+  float: right; }
+  .page p {
+    float: left;
+    font-size: 16px;
+    color: #886d4b;
+    margin-right: 28px;
+    cursor: pointer; }
+  .page .pageSlect {
+    font-weight: bold; }
+  .page P:last-child {
+    margin-right: 0;
+    font-weight: bold; }
+  .page P:first-child {
+    font-weight: bold; }
 
 .rfBoxTo .forum_rfTo {
   width: auto !important; }
@@ -293,7 +295,7 @@
   .rfBoxTo .forum_rfTo .forum_rf_list:nth-child(2) {
     width: 770px;
     margin-right: -70px;
-    padding-left: 60px; }
+    padding-left: 58px; }
 
 .swiper-button-next, .swiper-button-prev {
   top: 124px; }
@@ -334,3 +336,40 @@
     width: 585px;
     height: 138px;
     display: block; }
+
+.forum_rf_list_theme_ul {
+  width: 100%;
+  float: left; }
+
+.forum_rf_list_theme_ul li {
+  float: left;
+  height: 61px;
+  line-height: 61px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  margin-right: 46px;
+  cursor: pointer; }
+
+.forum_rf_list_theme_ul li.theme_liToselect {
+  color: #886d4b; }
+
+.listUl {
+  height: auto;
+  overflow: hidden;
+  float: right;
+  width: 700px;
+  padding-bottom: 42px;
+  border-bottom: 2px solid rgba(136, 109, 75, 0.5);
+  margin-bottom: 25px; }
+  .listUl li {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer; }
+    .listUl li p {
+      font-size: 16px;
+      color: #ffffff;
+      float: left; }
+    .listUl li p:nth-child(2) {
+      float: right; }

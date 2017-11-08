@@ -68,7 +68,9 @@ institution.html -- 常设机构
 conclude.html  -- 闭幕影片
 
 2017/11/5
-journalism.html   ---  新闻动态
+journalism.html   ---  新闻动态内容
+2017/11/7
+journalismList.html   ---  新闻动态列表
 
 开/闭幕   ----------------------        开幕酒会  √ 完成
                                         开幕影片  √ 完成

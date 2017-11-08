@@ -1,6 +1,13 @@
 @charset "UTF-8";
-.train_Main {
+.body, html {
   min-height: 959px; }
+
+.train_Main {
+  min-height: 959px;
+  background-size: 100% auto !important; }
+
+.forum_Main {
+  background-size: 100% auto !important; }
 
 /*头部*/
 .overflow {
@@ -16,7 +23,7 @@
   left: 0;
   z-index: 100; }
   .title .title_main {
-    width: 1184px;
+    width: 1200px;
     height: 105px;
     margin: 0 auto; }
     .title .title_main .logo {
@@ -232,3 +239,9 @@
         margin: 8px 0 0 8px; }
   .right_isoll .Img1 {
     display: none; }
+
+.forum_Ul li {
+  border: 6px solid rgba(136, 105, 75, 0.6) !important; }
+
+.forum_lf .forum_Ul .froum_select {
+  border: 0 !important; }

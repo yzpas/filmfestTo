@@ -23,7 +23,8 @@
           padding-left: 33px;
           box-sizing: border-box;
           margin-bottom: 12px;
-          cursor: pointer; }
+          cursor: pointer;
+          border: 0 !important; }
         .train_Main .forumBox .forum_lf .forum_Ul li.ulTos {
           position: relative; }
           .train_Main .forumBox .forum_lf .forum_Ul li.ulTos .forum_Ul_ul {

@@ -15,8 +15,15 @@ $breakpoints: (
 }
 
 //通用最小高度
+.body,html{
+  min-height:959px;
+}
 .train_Main{
   min-height:959px;
+  background-size: 100% auto !important;
+}
+.forum_Main{
+  background-size: 100% auto !important;
 }
 /*头部*/
 .overflow{
@@ -33,7 +40,7 @@ $breakpoints: (
   left: 0;
   z-index: 100;
   .title_main{
-    width: 1184px;
+    width: 1200px;
     height: 105px;
     margin: 0 auto;
     .logo{

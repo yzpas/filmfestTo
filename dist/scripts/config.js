@@ -172,18 +172,23 @@ $(function(){
                 loop: true
             });
         }else{
-            var swiper2 = new Swiper('.swiper-container2', {
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
-                paginationClickable: true,
-                spaceBetween: 65,
-                centeredSlides: true,
-                autoplay: 2500,
-                autoplayDisableOnInteraction: false,
-                slidesPerView: 3,
-                loop: true
-            });
+            // var swiper2 = new Swiper('.swiper-container2', {
+            //     nextButton: '.swiper-button-next',
+            //     prevButton: '.swiper-button-prev',
+            //     paginationClickable: true,
+            //     spaceBetween: 65,
+            //     centeredSlides: true,
+            //     autoplay: 2500,
+            //     autoplayDisableOnInteraction: false,
+            //     slidesPerView: 3,
+            //     loop: true
+            // });
         }
     });
-
+//    点击剧照
+//     $(".performUlTos li").eq(3).click(function(){
+//         alert(1);
+//         var $index = $(this).index();
+//         $(this).parent(".performUlTos").siblings(".performUlTo_Main").find("div").eq($index).find(".apply").find(".performUlTo1_ul").addClass("gallery").parents(".forum_rf_list").siblings().find(".performUlTo1_ul").removeClass("gallery");
+//     })
 });

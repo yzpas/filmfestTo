@@ -334,29 +334,32 @@
           }
         }
       }
-      .page{
-        height:20px;
-        line-height: 20px;
-        margin-left: 390px;
-        p{
-          float: left;
-          font-size: 16px;
-          color: #886d4b;
-          margin-right: 28px;
-          cursor: pointer;
-        }
-        .pageSlect{
-          font-weight: bold;
-        }
-        P:last-child{
-          margin-right: 0;
-          font-weight: bold;
-        }
-        P:first-child{
-          font-weight: bold;
-        }
-      }
+
     }
+  }
+}
+.page{
+  height:20px;
+  line-height: 20px;
+  margin-left: 390px;
+  overflow: hidden;
+  float: right;
+  p{
+    float: left;
+    font-size: 16px;
+    color: #886d4b;
+    margin-right: 28px;
+    cursor: pointer;
+  }
+  .pageSlect{
+    font-weight: bold;
+  }
+  P:last-child{
+    margin-right: 0;
+    font-weight: bold;
+  }
+  P:first-child{
+    font-weight: bold;
   }
 }
 .rfBoxTo{
@@ -371,7 +374,7 @@
     .forum_rf_list:nth-child(2){
       width:  770px;
       margin-right: -70px;
-      padding-left: 60px;
+      padding-left: 58px;
     }
   }
 }
@@ -424,3 +427,26 @@
   }
 }
 .forum_rf_list_theme_ul{width:100%;float:left;}.forum_rf_list_theme_ul li{float:left; height:61px;line-height: 61px;font-size: 16px;color: rgba(255,255,255,.5);font-weight: 700;margin-right: 46px;cursor: pointer}.forum_rf_list_theme_ul li.theme_liToselect{color: #886d4b;}
+.listUl{
+  height:auto;
+  overflow: hidden;
+  float: right;
+  width:700px;
+  padding-bottom: 42px;
+  border-bottom: 2px solid rgba(136,109,75,.5);
+  margin-bottom: 25px;
+  li{
+    width:100%;
+    height:38px;
+    line-height: 38px;
+    cursor: pointer;
+    p{
+      font-size: 16px;
+      color: #ffffff;
+      float: left;
+    }
+    p:nth-child(2){
+      float: right;
+    }
+  }
+}
