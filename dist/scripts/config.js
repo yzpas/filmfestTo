@@ -147,7 +147,7 @@ $(function(){
         var $index = $(this).index();
         $(this).addClass("theme_liToselect").siblings().removeClass("theme_liToselect");
         $(this).parent(".forum_rf_list_theme_ul").siblings().find(".ent_mainb").removeClass("displayB").eq($index).addClass("displayB");
-        if($index == 1){
+        if($index == 0){
             var swiper4 = new Swiper('.swiper-container4', {
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
