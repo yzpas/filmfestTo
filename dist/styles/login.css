@@ -121,12 +121,12 @@ input, button {
               float: left;
               font-size: 12px;
               color: #000000;
-              line-height: 12px;
+              line-height: 14px;
               margin-left: 6px; }
           .login_main .login .login_nei .lo_dv .remember a {
             float: right;
             font-size: 12px;
-            line-height: 12px;
+            line-height: 14px;
             color: #000000; }
         .login_main .login .login_nei .lo_dv .btn2 {
           width: 330px;
@@ -143,9 +143,10 @@ input, button {
         .login_main .login .login_nei .lo_dv .wrong {
           font-size: 12px;
           width: 330px;
-          text-align: center;
+          text-align: left;
+          padding-left: 20px;
           margin-top: 4px;
-          background: url("../../images/icon4.jpg") no-repeat 24px center; }
+          background: url("../../images/icon4.jpg") no-repeat left center; }
     .login_main .login .forget {
       background-color: rgba(255, 255, 255, 0.94);
       width: 100%;

@@ -40,7 +40,7 @@ $breakpoints: (
   left: 0;
   z-index: 100;
   .title_main{
-    width: 1200px;
+    width: 1212px;
     height: 105px;
     margin: 0 auto;
     .logo{
@@ -156,10 +156,10 @@ $breakpoints: (
     }
 
     .ti_login{
-      float: right;
+      float: left;
       height: 107px;
       line-height: 107px;
-      width:132px;
+      width:144px;
       a{
         float: left;
         font-size: 12px;

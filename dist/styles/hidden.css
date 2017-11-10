@@ -23,7 +23,7 @@
   left: 0;
   z-index: 100; }
   .title .title_main {
-    width: 1200px;
+    width: 1212px;
     height: 105px;
     margin: 0 auto; }
     .title .title_main .logo {
@@ -80,15 +80,24 @@
         .title .title_main .nav .ti_ul .li_a:last-child .li_aTo {
           background: inherit; }
     .title .title_main .ti_login {
-      float: right;
+      float: left;
       height: 107px;
-      line-height: 107px; }
+      line-height: 107px;
+      width: 144px; }
       .title .title_main .ti_login a {
         float: left;
         font-size: 12px;
         color: #886d4b;
         font-weight: bold;
-        padding: 0 7px; }
+        margin: 0 7px;
+        overflow: hidden; }
+      .title .title_main .ti_login a:nth-child(1) {
+        width: 52px;
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: right; }
       .title .title_main .ti_login p {
         float: left;
         color: #886d4b;
